@@ -2,5 +2,6 @@
   "liveServer.settings.ignoreFiles": ["**/db/*"],
   "liveServer.settings.root": "/Submission",
   "liveServer.settings.port": 5501,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "livePreview.defaultPreviewPath": "/Submission/product1.html"
 }
