@@ -12,7 +12,7 @@ jobs:
         id: lighthouseCheck
         with:
           outputDirectory: /tmp/artifacts
-          urls: "https://replace-me.netlify.app"
+          urls: "-"
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
