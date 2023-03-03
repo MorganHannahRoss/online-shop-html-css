@@ -212,6 +212,8 @@ h2 {
   border: 2px solid #999;
   padding: 0.5rem;
   font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  letter-spacing: 0.08rem;
   margin-bottom: 2rem;
   display: block;
   width: 94%;
