@@ -4,6 +4,7 @@
 }
 
 .header {
+  border-radius: 4px;
 }
 
 .logo {
@@ -21,6 +22,7 @@
   display: block;
   font-size: 1.5rem;
   padding: 1rem;
+  border-radius: 4px;
   height: fit-content;
   outline: 1px solid #3f6660;
   color: #3f6660;
@@ -67,6 +69,7 @@ h2 {
   background-color: #3f6660;
   color: #fefffe;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .card > h2,
