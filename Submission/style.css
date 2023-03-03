@@ -1,0 +1,92 @@
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.header {
+}
+
+.logo {
+  max-width: 10rem;
+  margin: auto;
+}
+
+.menu-container {
+  margin: auto;
+}
+
+.menu {
+  text-align: center;
+  display: block;
+  font-size: 1.5rem;
+  padding: 1rem;
+  height: fit-content;
+  outline: 1px solid #3f6660;
+  color: #3f6660;
+  text-decoration: none;
+  width: fit-content;
+  margin: 1rem auto;
+}
+
+.menu:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.product-img {
+  width: 70%;
+  outline: 1px solid white;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+}
+
+body {
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #3f6660;
+  background-color: #fefffe;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1.5rem;
+  margin: auto;
+}
+
+.card {
+  background-color: #3f6660;
+  color: #fefffe;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 30rem) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu {
+    color: #fefffe;
+    display: inline;
+    outline-color: #fefffe;
+    margin: 0;
+    width: auto;
+  }
+  .header {
+    display: grid;
+    background-color: #3f6660;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    grid-template-columns: 6fr 2fr 2fr;
+    grid-gap: 1.5rem;
+    align-items: center;
+  }
+  .logo {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 64rem) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
