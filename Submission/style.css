@@ -41,7 +41,7 @@
 
 body {
   text-align: center;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #3f6660;
   background-color: #fefffe;
@@ -58,6 +58,14 @@ body {
   background-color: #3f6660;
   color: #fefffe;
   border-radius: 4px;
+}
+
+.card > h2,
+.card > p {
+  text-align: left;
+  margin-left: 2.5rem;
+  font-size: 0.9rem;
+  margin-right: 2.5rem;
 }
 
 @media screen and (min-width: 30rem) {
