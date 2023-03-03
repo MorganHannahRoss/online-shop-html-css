@@ -139,6 +139,7 @@ h2 {
   width: 100%;
   text-align: center;
   text-decoration: none;
+  border: none;
 }
 
 .grids {
@@ -230,6 +231,10 @@ h2 {
   grid-gap: 2rem;
 }
 
+.contactgrid .button {
+  width: 100%;
+}
+
 @media screen and (min-width: 30rem) {
   .contactgrid {
     grid-template-columns: 3fr 2fr;
@@ -239,5 +244,8 @@ h2 {
 @media screen and (min-width: 60rem) {
   .contactgrid {
     grid-template-columns: 3fr 1fr;
+  }
+  .contactgrid .button {
+    width: 96%;
   }
 }
