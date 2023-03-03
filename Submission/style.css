@@ -115,3 +115,127 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+.featureimg {
+  max-width: 100%;
+  outline: 1px solid white;
+  border-radius: 4px;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background-color: #3f6660;
+  color: #fefffe;
+  border-radius: 4px;
+  padding-block: 1rem;
+}
+
+.button {
+  background-color: #3f6660;
+  color: #fefffe;
+  border-radius: 4px;
+  padding: 1rem 0;
+  display: inline-block;
+  margin-top: 1rem;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1.5rem;
+  text-align: left;
+}
+
+@media screen and (min-width: 30rem) {
+  .grids {
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu {
+    color: #fefffe;
+    display: inline;
+    outline-color: #fefffe;
+    margin: 0;
+    width: auto;
+  }
+  .header {
+    display: grid;
+    background-color: #3f6660;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    grid-template-columns: 6fr 2fr 2fr;
+    grid-gap: 1.5rem;
+    align-items: center;
+  }
+  .logo {
+    margin: 0;
+  }
+  .buynow {
+    padding: 1rem;
+    width: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .grids {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.form-label {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  display: block;
+  text-align: left;
+}
+
+.contactus {
+  background: #f4e285;
+  border: none;
+  padding: 1.5rem 2rem;
+  margin: auto;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 150ms;
+  cursor: pointer;
+}
+
+.form-control {
+  border-radius: 0.5rem;
+  border: 2px solid #999;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  display: block;
+  width: 94%;
+}
+
+.message {
+  height: 6rem;
+  margin-bottom: 1rem;
+}
+
+.contactgrid {
+  text-align: left;
+  display: grid;
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 30rem) {
+  .contactgrid {
+    grid-template-columns: 3fr 2fr;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .contactgrid {
+    grid-template-columns: 3fr 1fr;
+  }
+}
