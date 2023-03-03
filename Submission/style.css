@@ -43,6 +43,7 @@
 body {
   text-align: center;
   font-size: 1rem;
+  font-display: optional;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #3f6660;
   background-color: #fefffe;
@@ -50,6 +51,7 @@ body {
 
 p,
 a,
+h1,
 h2 {
   letter-spacing: 0.06rem;
 }
