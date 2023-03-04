@@ -70,6 +70,7 @@ h2 {
   color: #fefffe;
   border-radius: 4px;
   text-decoration: none;
+  padding-block: 1rem;
 }
 
 .elevation:hover {
@@ -120,13 +121,6 @@ h2 {
   outline: 1px solid white;
   border-radius: 4px;
   margin-top: 1.5rem;
-}
-
-.card {
-  background-color: #3f6660;
-  color: #fefffe;
-  border-radius: 4px;
-  padding-block: 1rem;
 }
 
 .button {
